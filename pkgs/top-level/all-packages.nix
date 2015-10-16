@@ -6068,6 +6068,8 @@ let
 
   babl = callPackage ../development/libraries/babl { };
 
+  bcpkix = callPackage ../development/libraries/java/bcpkix { };
+
   bcprov = callPackage ../development/libraries/java/bcprov { };
 
   beecrypt = callPackage ../development/libraries/beecrypt { };
