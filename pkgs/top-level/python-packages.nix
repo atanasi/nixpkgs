@@ -2704,12 +2704,12 @@ in modules // {
 
 
   cogapp = buildPythonPackage rec {
-    version = "2.3";
+    version = "2.4";
     name    = "cogapp-${version}";
 
     src = pkgs.fetchurl {
       url    = "https://pypi.python.org/packages/source/c/cogapp/${name}.tar.gz";
-      sha256 = "0gzmzbsk54r1qa6wd0yg4zzdxvn2f19ciprr2acldxaknzrpllnn";
+      sha256 = "18vvbakpkfkmyxsr9ncc7z8a4inm9idg5c1aim07rzfwv37shwav";
     };
 
     # there are no tests
